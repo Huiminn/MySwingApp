@@ -37,6 +37,6 @@ public class AppTest
     }
     public static void main(String[] args){
     	for(;;)
-    		System.out.println("I love You");
+    		System.out.println("I like reading");
     }
 }
