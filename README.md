@@ -1,5 +1,6 @@
 # MySwingApp
-Library loan system, students have power using auto service book borrwing system and admin controls helping students returning book.
+Students can use book searching and booking borrowing service on Library loan system.
+Admins manage Library loan system, student registration system, and user account management system. They can add,update,and delete book information, student registartion information, user login information, and help students returning book.
 
 
 1.	MySQL is needed to be installed from https://dev.mysql.com/doc/workbench/en/wb-installing.html
