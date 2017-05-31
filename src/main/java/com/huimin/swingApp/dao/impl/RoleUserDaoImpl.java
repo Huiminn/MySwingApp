@@ -21,21 +21,21 @@ public class RoleUserDaoImpl implements RoleUserDao {
 			statement = conn.createStatement();
 			result = statement.executeUpdate(sql);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}finally{
 			if(!(statement == null)){
 				try {
 					statement.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			}
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}

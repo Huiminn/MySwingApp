@@ -28,21 +28,21 @@ public class BorrowRecordManagerDaoImpl implements BorrowRecordManagerDao {
 			statement = conn.createStatement();
 			result = statement.executeUpdate(sql);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}finally{
 			if(!(statement == null)){
 				try {
 					statement.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			}
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
@@ -70,21 +70,21 @@ public class BorrowRecordManagerDaoImpl implements BorrowRecordManagerDao {
 				borrowRecordslist.add(borrowRecord);
 			}
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}finally{
 			if(!(statement == null)){
 				try {
 					statement.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			}
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
@@ -101,7 +101,7 @@ public class BorrowRecordManagerDaoImpl implements BorrowRecordManagerDao {
 			rs = statement.executeQuery(sql);
 			mapList = ModelConvert.convertList(rs);
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}finally {
 			if(!(statement == null))
@@ -109,14 +109,14 @@ public class BorrowRecordManagerDaoImpl implements BorrowRecordManagerDao {
 				try {
 					statement.close();
 				} catch (SQLException e) {
-					// TODO Auto-generated catch block
+					
 					e.printStackTrace();
 				}
 			}
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
+				
 				e.printStackTrace();
 			}
 		}
