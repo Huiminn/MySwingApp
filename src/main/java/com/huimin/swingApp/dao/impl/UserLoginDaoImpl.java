@@ -21,7 +21,7 @@ public class UserLoginDaoImpl implements UserLoginDao {
 	
 	
 	public UserLoginDaoImpl() {
-		// TODO Auto-generated constructor stub
+	
 	}
 
 	public int executeUpdate(String sql){

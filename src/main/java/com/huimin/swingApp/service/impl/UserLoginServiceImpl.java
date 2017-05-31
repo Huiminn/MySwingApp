@@ -11,7 +11,7 @@ public class UserLoginServiceImpl implements UserLoginService {
 	
 	private UserLoginDao userLoginDao;
 	public UserLoginServiceImpl() {
-		// TODO Auto-generated constructor stub
+		
 		userLoginDao = new UserLoginDaoImpl();
 	}
 	
