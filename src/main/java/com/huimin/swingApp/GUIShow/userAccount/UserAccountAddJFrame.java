@@ -156,7 +156,9 @@ public class UserAccountAddJFrame extends JFrame implements ActionListener {
                      		flag = true;
                     	 }
                     		
-                     }               
+                     }   else 
+                    	 btnBack.setBounds(146, 259, 69, 30);
+                         btnSave.setBounds(56, 259, 69, 30);          
                 	 try {
 						Thread.sleep(timeInterval);
 					} catch (InterruptedException e) {
